@@ -5,6 +5,20 @@ body {
   font-size: calc(1.7vw + 1vh);
 }
 
+a {
+  color: white;
+  font-family: arial;
+}
+
+a:hover {
+   opacity: 70%;  
+   font-size: 110%;
+}
+
+i {
+  color: #D8E2DC;
+  margin: 5px;
+}
 
 body {
   width: 100%;
@@ -20,20 +34,27 @@ body {
 .wrapper {
   width: 95%;
   height: 95%;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: calc(10vh)
 }
 
 .quote {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 200%; 
+  font-size: 160%; 
   text-align: justify;
   text-align-last: center
 }
 
 .author {
   font-family: 'Crimson Text', serif;
-  font-size: 150%;
+  font-size: 75%;
   font-style: italic;
   text-align: center;
-  transform: translateY(-10px);
+}
+
+.lang {
+  text-align: center;
+  font-size: 60%;
+  transform: translateY(180px);
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
 }
